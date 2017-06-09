@@ -23,13 +23,13 @@ color: black;
 
 #titletype {
   color: black;
-  background-color: #4aaaa5;
+  /*background-color: #4aaaa5;*/
   font-family: 'Georgia', sans-serif;
   font-size: 50px;
   font-weight: 75;
   float: left;
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 40px;
   margin: 0px;
 
 }

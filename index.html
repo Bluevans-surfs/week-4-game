@@ -13,7 +13,13 @@
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
   <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
 
   <style> 
     .container {
@@ -41,106 +47,101 @@
       <div class="navbar-header">
       <a id="titletype" class="navbar-brand" href="#">Crystals Collector!</a>
       </div>
-      <!--<header style="font-size: 2em;">Crystals Collector!</header> -->
+      
     </div>
 
 </div>
 
-   <!-- Our rows function in containers (grid created). -->
+ 
   <div class="container">
 
 
-    <!-- Our columns function in rows. -->
+    
     <div class="row">
 
-      <!-- Columns have 12 areas of width to work with. -->
+     
+      <div class="col-md-8">
 
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-6">
-
-      	  <br>
-
-          <p>You will be given a random number at the start of the game.<br><br>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.<br><br>you win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br><br>The value of each crystal is hidden from you until you click on it.<br><br>Each time when the game starts, the game will change the value of each crystal.</p>
+          <h3>Rules of the Game:</h3>
+      	  
+          <p>You will be given a random number at the start of the game.<br><br>There are four crystals below.<br><br>By clicking on a crystal you will add a specific amount of points to your total score.<br><br>you win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br><br>The value of each crystal is hidden from you until you click on it.<br><br>Each time when the game starts, the game will change the value of each crystal.</p>
 
 	  </div>
 
 	  </div>
 
 
-<!-- Our columns function in rows. -->
+
     <div class="row">
 
-      <!-- Columns have 12 areas of width to work with. -->
+      
+      <div class="col-md-4">
 
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-3">
+      	  <h3>The Computer's Guess:</h3>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti. Vestibulum tellus diam, lacinia in faucibus eu, elementum vitae ante. Sed sed quam ut nisl tincidunt posuere ac non enim.</p>
-        <!-- This is column 1 of 3 -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti.</p>
+        
       </div>
 
-       <div class="col-md-3">
+       <div class="col-md-4">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti. Vestibulum tellus diam, lacinia in faucibus eu, elementum vitae ante. Sed sed quam ut nisl tincidunt posuere ac non enim.</p>
-        <!-- This is column 1 of 3 -->
+		<h5>Wins:</h5>
+		<h5>Losses:</h5>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque.</p>
+       
       </div>
 
-       <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+     
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
   
       <div class="row">
 
-      <!-- Columns have 12 areas of width to work with. -->
-
-      <!-- One third of screen (4/12) -->
-      
+          
       <div class="col-md-2">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti. Vestibulum tellus diam, lacinia in faucibus eu, elementum vitae ante. Sed sed quam ut nisl tincidunt posuere ac non enim. </p>
-        <!-- This is column 1 of 3 -->
+		<div class="panel-body">
+            <button id="button-1"><h1>img src="../images/blue_crystal.png" alt="blue crystal"</h1></button>
+
+
+          <!-- <a href="#"><img src="../images/blue_crystal.png" alt="blue crystal"/> </a> -->
+
+          <!-- <img id = "image" src="images/blue_crystal.png" alt="blue crystal" class="img-thumbnail"> -->
+        
       </div>
 
       <div class="col-md-2">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti. Vestibulum tellus diam, lacinia in faucibus eu, elementum vitae ante. Sed sed quam ut nisl tincidunt posuere ac non enim. </p>
-        <!-- This is column 1 of 3 -->
+          <a href="#"><img src="../images/green_crystal.png" alt="green crystal" /> </a>
+       
       </div>
 
       <div class="col-md-2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti. Vestibulum tellus diam, lacinia in faucibus eu, elementum vitae ante. Sed sed quam ut nisl tincidunt posuere ac non enim.  </p>
-        <!-- This is column 1 of 3 -->
+
+          <a href="#"><img src="../images/purple_crystal.png" alt="purple crystal"/> </a>
+     
       </div>
 
 
-      <!-- One third of screen (4/12) -->
       <div class="col-md-2">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti. Vestibulum tellus diam, lacinia in faucibus eu, elementum vitae ante. Sed sed quam ut nisl tincidunt posuere ac non enim. </p>
+         <a href="#"><img src="../images/red_crystal.png" alt="red crystal"/> </a>
 
-        <!-- This is column 2 of 3 -->
       </div>
 
            
   </div>
 
 
-     <!-- Second Row -->
+    
     <div class="row">
 
-      <!-- First of two columns -->
+
       <div class="col-md-6">
+
+        <h3>Your total score is:</h3>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper.
       </div>
 
