@@ -1,4 +1,4 @@
-//alert("I'm loaded!");
+ 'use strict';
 
 var randomComputerNum = 0;
 var randomCrystalNum1 = 0;
@@ -19,10 +19,11 @@ function getCrystalNumber() {
 } 
 
 $(document).ready(function() {
- 'use strict';
-  //alert('inside of ready');
- });
-
+  $('.crystal').on('click', function(e){
+    //e.preventDefault();
+    alert('you clicked a crystal');
+  });
+});
 
 // window.onload = function(event) {
 //   randomComputerNum = computerRandomNum();
