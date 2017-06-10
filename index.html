@@ -21,7 +21,7 @@
 
 
 
-  <style> 
+  <!-- <style> 
     .container {
       border: 1px solid purple;
     }
@@ -31,7 +31,7 @@
   .row div {
       border: 1px solid red;
       padding: 2em;
-  }   </style> 
+  }   </style>  -->
 
 
 </head>
@@ -77,18 +77,21 @@
       
       <div class="col-md-4">
 
-      	  <h3>The Computer's Guess:</h3>
+      	  <h3>The Computer's Guess:  <span id = 'computerscore'></span></h3>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper. Suspendisse potenti.</p>
+          
         
       </div>
 
        <div class="col-md-4">
 
-		<h5>Wins:</h5>
-		<h5>Losses:</h5>
+        <h3 id = "gameover" ></h3>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque.</p>
+
+		<h4>Wins: <span id = 'wins'>0</span></h4>
+		<h4>Losses: <span id = 'loses'>0</span></h4>
+
+		
        
       </div>
 
@@ -98,36 +101,40 @@
   
       <div class="row">
 
-          
+         
+
+
       <div class="col-md-2">
 
 		
           <!-- <a href="#"><img src="../images/blue_crystal.png" alt="blue crystal"/> </a> -->
-          <a href="#"><img class='crystal' src="assets/images/blue_crystal.png" alt="blue crystal" /> </a>
+          <img id = 'crystal1' class='crystal' src="assets/images/blue_crystal.png" alt="blue crystal" /> 
 
-                 
+      
+
       </div>
 
       <div class="col-md-2">
 
-          <a href="#"><img class='crystal' src="assets/images/green_crystal.png" alt="green crystal" /> </a>
+         <img id = 'crystal2' class='crystal' src="assets/images/green_crystal.png" alt="green crystal" /> 
        
       </div>
 
       <div class="col-md-2">
 
-          <a href="#"><img class='crystal' src="assets/images/purple_crystal.png" alt="purple crystal" /> </a>
+         <img id = 'crystal3' class='crystal' src="assets/images/purple_crystal.png" alt="purple crystal" /> 
      
       </div>
 
 
       <div class="col-md-2">
 
-         <a href="#"><img class='crystal' src="assets/images/red_crystal.png" alt="red crystal" /> </a>
+         <img id = 'crystal4' class='crystal' src="assets/images/red_crystal.png" alt="red crystal" /> 
 
       </div>
 
-           
+      
+
   </div>
 
 
@@ -137,9 +144,9 @@
 
       <div class="col-md-6">
 
-        <h3>Your total score is:</h3>
+        <h3>Your total score is: <span id = 'score'>0</span></h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat fringilla pellentesque. Quisque ullamcorper mi at massa consequat semper.
+        
       </div>
 
       

@@ -1,6 +1,6 @@
 .crystal {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 60px;
 }
 
 .container {
@@ -24,6 +24,11 @@ background-image: url("../images/ep_naturalwhite.png");
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 color: black;
 
+}
+
+.crystal-body{
+	background-color: white;
+	
 }
 
 #titletype {
