@@ -1,3 +1,8 @@
+.crystal {
+  height: 50px;
+  width: 50px;
+}
+
 .container {
   width: 100%;
   max-width: 960px;

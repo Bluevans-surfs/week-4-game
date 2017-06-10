@@ -20,7 +20,7 @@ function getCrystalNumber() {
 
 $(document).ready(function() {
  'use strict';
-   alert('inside of ready');
+  //alert('inside of ready');
  });
 
 
