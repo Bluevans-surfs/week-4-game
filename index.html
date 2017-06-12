@@ -17,10 +17,6 @@
 
   <script type="text/javascript" src="assets/javascript/game.js"></script>
 
-
-
-
-
   <!-- <style> 
     .container {
       border: 1px solid purple;
@@ -39,80 +35,71 @@
 <body>
 
 
-
 <div class="container">
 
-     <div class="row>"
+   <div class="row>"
      <nav class="navbar navbar-default" id="header">
       <div class="navbar-header">
       <a id="titletype" class="navbar-brand" href="#">Crystals Collector!</a>
-      </div>
+     </div>
       
-    </div>
+   </div>
 
 </div>
 
  
   <div class="container">
 
-
-    
     <div class="row">
 
-     
       <div class="col-md-8">
+
+    	<div class="panel-body">
 
           <h3>Rules of the Game:</h3>
       	  
           <p>You will be given a random number at the start of the game.<br><br>There are four crystals below.<br><br>By clicking on a crystal you will add a specific amount of points to your total score.<br><br>you win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br><br>The value of each crystal is hidden from you until you click on it.<br><br>Each time when the game starts, the game will change the value of each crystal.</p>
 
+        </div>
 	  </div>
-
-	  </div>
-
-
+	</div>
 
     <div class="row">
 
-      
       <div class="col-md-4">
 
-      	  <h3>The Computer's Guess:  <span id = 'computerscore'></span></h3>
+        <div class="panel-body1">
 
-          
+      	  <h3 class="panel-title">The Computer's Guess: <br><br><span id = 'computerscore'></span></h3>
+
+      	</div>
         
       </div>
 
        <div class="col-md-4">
 
-        <h3 id = "gameover" ></h3>
+        <h4 id = "gameover" ></h4>
 
+        <div class="panel-body2">
 
-		<h4>Wins: <span id = 'wins'>0</span></h4>
-		<h4>Losses: <span id = 'loses'>0</span></h4>
+		<h4> Wins:  <span id = 'wins'>0</span></h4>
+		<h4> Losses:  <span id = 'loses'>0</span></h4>
 
-		
-       
-      </div>
+		</div>
 
-     
-    </div>
+	   </div>
+
+     </div>
 
   
-      <div class="row">
+    <div class="row">
 
          
-
-
       <div class="col-md-2">
+     
+		 <img id = 'crystal1' class='crystal' src="assets/images/blue_crystal.png" alt="blue crystal" /> 
 
-		
-          <!-- <a href="#"><img src="../images/blue_crystal.png" alt="blue crystal"/> </a> -->
-          <img id = 'crystal1' class='crystal' src="assets/images/blue_crystal.png" alt="blue crystal" /> 
-
-      
-
-      </div>
+	  </div>
 
       <div class="col-md-2">
 
@@ -126,26 +113,30 @@
      
       </div>
 
-
       <div class="col-md-2">
 
          <img id = 'crystal4' class='crystal' src="assets/images/red_crystal.png" alt="red crystal" /> 
 
+
+
       </div>
-
       
+  	</div>
 
-  </div>
-
-
+<br>
     
     <div class="row">
 
 
       <div class="col-md-6">
 
+        <div class="lowest-body">
+
         <h3>Your total score is: <span id = 'score'>0</span></h3>
 
+        <br>
+
+		</div>
         
       </div>
 

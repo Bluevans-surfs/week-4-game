@@ -65,8 +65,8 @@ $(document).ready(function() {
     updateScore();
 
     if (randomComputerNum === userTotalScoreCount) {
-        updateWins();
-        updateGameOver('You won...let\'s play again!');
+        updateWins();        
+        updateGameOver('     You won...let\'s play again!');
         resetGame();
 
 
